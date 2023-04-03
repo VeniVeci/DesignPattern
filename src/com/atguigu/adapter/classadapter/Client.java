@@ -7,6 +7,7 @@ public class Client {
 		System.out.println(" === ÀàÊÊÅäÆ÷Ä£Ê½ ====");
 		Phone phone = new Phone();
 		phone.charging(new VoltageAdapter());
+		phone.chargingHalf(new VoltageHalfAdapter());
 	}
 
 }
