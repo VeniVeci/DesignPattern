@@ -13,7 +13,7 @@ public abstract class OrderPizza {
 
 	//定义一个抽象方法，createPizza , 让各个工厂子类自己实现
 	abstract Pizza createPizza(String orderType);
-	
+
 	// 构造器
 	public OrderPizza() {
 		Pizza pizza = null;
@@ -26,11 +26,9 @@ public abstract class OrderPizza {
 			pizza.bake();
 			pizza.cut();
 			pizza.box();
-			
+
 		} while (true);
 	}
-
-	
 
 	// 写一个方法，可以获取客户希望订购的披萨种类
 	private String getType() {

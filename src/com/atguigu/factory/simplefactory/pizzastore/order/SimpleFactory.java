@@ -10,9 +10,7 @@ public class SimpleFactory {
 
 	//更加orderType 返回对应的Pizza 对象
 	public Pizza createPizza(String orderType) {
-
 		Pizza pizza = null;
-
 		System.out.println("使用简单工厂模式");
 		if (orderType.equals("greek")) {
 			pizza = new GreekPizza();
@@ -24,12 +22,11 @@ public class SimpleFactory {
 			pizza = new PepperPizza();
 			pizza.setName("胡椒披萨");
 		}
-		
 		return pizza;
 	}
-	
-	//简单工厂模式 也叫 静态工厂模式 
-	
+
+	//简单工厂模式 也叫 静态工厂模式
+
 	public static Pizza createPizza2(String orderType) {
 
 		Pizza pizza = null;
@@ -45,7 +42,7 @@ public class SimpleFactory {
 			pizza = new PepperPizza();
 			pizza.setName("胡椒披萨");
 		}
-		
+
 		return pizza;
 	}
 

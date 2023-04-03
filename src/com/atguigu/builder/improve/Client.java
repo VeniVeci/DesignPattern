@@ -21,7 +21,6 @@ public class Client {
 		houseDirector.constructHouse();
 
 
-
 	}
 
 	@Test
