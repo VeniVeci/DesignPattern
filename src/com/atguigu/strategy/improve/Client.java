@@ -7,8 +7,8 @@ public class Client {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		WildDuck wildDuck = new WildDuck();
-		// ĞÂ½¨¶ÔÏóµÄÊ±ºò  ¾Í°ÑÏà¹ØµÄ behavior set½øÈ¥ÁË  ÔÚµ÷ÓÃÄ³¸ö·½·¨µÄÊ±ºò
-		// ¾Í½øĞĞ µ÷ÓÃ¼´¿É
+		// æ–°å»ºå¯¹è±¡çš„æ—¶å€™  å°±æŠŠç›¸å…³çš„ behavior setè¿›å»äº†  åœ¨è°ƒç”¨æŸä¸ªæ–¹æ³•çš„æ—¶å€™
+		// å°±è¿›è¡Œ è°ƒç”¨å³å¯
 		wildDuck.fly();//
 
 		ToyDuck toyDuck = new ToyDuck();
@@ -17,9 +17,9 @@ public class Client {
 		PekingDuck pekingDuck = new PekingDuck();
 		pekingDuck.fly();
 
-		//¶¯Ì¬¸Ä±äÄ³¸ö¶ÔÏóµÄĞĞÎª, ±±¾©Ñ¼ ²»ÄÜ·É
+		//åŠ¨æ€æ”¹å˜æŸä¸ªå¯¹è±¡çš„è¡Œä¸º, åŒ—äº¬é¸­ ä¸èƒ½é£
 		pekingDuck.setFlyBehavior(new NoFlyBehavior());
-//		System.out.println("±±¾©Ñ¼µÄÊµ¼Ê·ÉÏèÄÜÁ¦");
+//		System.out.println("åŒ—äº¬é¸­çš„å®é™…é£ç¿”èƒ½åŠ›");
 		pekingDuck.fly();
 
 	}

@@ -1,12 +1,12 @@
 package com.atguigu.decorator;
 
-//¾ßÌåµÄDecorator£¬ ÕâÀï¾ÍÊÇµ÷Î¶Æ·
+//å…·ä½“çš„Decoratorï¼Œ è¿™é‡Œå°±æ˜¯è°ƒå‘³å“
 public class Chocolate extends Decorator {
 
 	public Chocolate(Drink obj) {
 		super(obj);
-		setDes(" ÇÉ¿ËÁ¦ ");
-		setPrice(3.0f); // µ÷Î¶Æ· µÄ¼Û¸ñ
+		setDes(" å·§å…‹åŠ› ");
+		setPrice(3.0f); // è°ƒå‘³å“ çš„ä»·æ ¼
 	}
 
 }

@@ -5,19 +5,19 @@ public class SingleResponsibility1 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Vehicle vehicle = new Vehicle();
-		vehicle.run("Ä¦ÍĞ³µ");
-		vehicle.run("Æû³µ");
-		vehicle.run("·É»ú");
+		vehicle.run("æ‘©æ‰˜è½¦");
+		vehicle.run("æ±½è½¦");
+		vehicle.run("é£æœº");
 	}
 
 }
 
-// ½»Í¨¹¤¾ßÀà
-// ·½Ê½1
-// 1. ÔÚ·½Ê½1 µÄrun·½·¨ÖĞ£¬Î¥·´ÁËµ¥Ò»Ö°ÔğÔ­Ôò
-// 2. ½â¾öµÄ·½°¸·Ç³£µÄ¼òµ¥£¬¸ù¾İ½»Í¨¹¤¾ßÔËĞĞ·½·¨²»Í¬£¬·Ö½â³É²»Í¬Àà¼´¿É
+// äº¤é€šå·¥å…·ç±»
+// æ–¹å¼1
+// 1. åœ¨æ–¹å¼1 çš„runæ–¹æ³•ä¸­ï¼Œè¿åäº†å•ä¸€èŒè´£åŸåˆ™
+// 2. è§£å†³çš„æ–¹æ¡ˆéå¸¸çš„ç®€å•ï¼Œæ ¹æ®äº¤é€šå·¥å…·è¿è¡Œæ–¹æ³•ä¸åŒï¼Œåˆ†è§£æˆä¸åŒç±»å³å¯
 class Vehicle {
 	public void run(String vehicle) {
-		System.out.println(vehicle + " ÔÚ¹«Â·ÉÏÔËĞĞ....");
+		System.out.println(vehicle + " åœ¨å…¬è·¯ä¸Šè¿è¡Œ....");
 	}
 }
