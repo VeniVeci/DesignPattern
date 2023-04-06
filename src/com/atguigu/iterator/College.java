@@ -6,9 +6,9 @@ public interface College {
 	
 	public String getName();
 	
-	//增加系的方法
+	//澧炲姞绯荤殑鏂规硶
 	public void addDepartment(String name, String desc);
 	
-	//返回一个迭代器,遍历
+	//杩斿洖涓�涓凯浠ｅ櫒,閬嶅巻
 	public Iterator  createIterator();
 }

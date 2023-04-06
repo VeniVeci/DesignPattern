@@ -5,27 +5,25 @@ import java.util.Iterator;
 public class ComputerCollege implements College {
 
 	Department[] departments;
-	int numOfDepartment = 0 ;// ±£´æµ±Ç°Êı×éµÄ¶ÔÏó¸öÊı
-	
-	
+	int numOfDepartment = 0 ;// ä¿å­˜å½“å‰æ•°ç»„çš„å¯¹è±¡ä¸ªæ•°
+
+
 	public ComputerCollege() {
 		departments = new Department[5];
-		addDepartment("Java×¨Òµ", " Java×¨Òµ ");
-		addDepartment("PHP×¨Òµ", " PHP×¨Òµ ");
-		addDepartment("´óÊı¾İ×¨Òµ", " ´óÊı¾İ×¨Òµ ");
-		
+		addDepartment("Javaä¸“ä¸š", " Javaä¸“ä¸š ");
+		addDepartment("PHPä¸“ä¸š", " PHPä¸“ä¸š ");
+		addDepartment("å¤§æ•°æ®ä¸“ä¸š", " å¤§æ•°æ®ä¸“ä¸š ");
+
 	}
-	
-	
+
+
 	@Override
 	public String getName() {
-		// TODO Auto-generated method stub
-		return "¼ÆËã»úÑ§Ôº";
+		return "è®¡ç®—æœºå­¦é™¢";
 	}
 
 	@Override
 	public void addDepartment(String name, String desc) {
-		// TODO Auto-generated method stub
 		Department department = new Department(name, desc);
 		departments[numOfDepartment] = department;
 		numOfDepartment += 1;
@@ -33,7 +31,6 @@ public class ComputerCollege implements College {
 
 	@Override
 	public Iterator createIterator() {
-		// TODO Auto-generated method stub
 		return new ComputerCollegeIterator(departments);
 	}
 

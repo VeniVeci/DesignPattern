@@ -11,15 +11,15 @@ public class InfoCollege implements College {
 	
 	public InfoCollege() {
 		departmentList = new ArrayList<Department>();
-		addDepartment("ĞÅÏ¢°²È«×¨Òµ", " ĞÅÏ¢°²È«×¨Òµ ");
-		addDepartment("ÍøÂç°²È«×¨Òµ", " ÍøÂç°²È«×¨Òµ ");
-		addDepartment("·şÎñÆ÷°²È«×¨Òµ", " ·şÎñÆ÷°²È«×¨Òµ ");
+		addDepartment("ä¿¡æ¯å®‰å…¨ä¸“ä¸š", " ä¿¡æ¯å®‰å…¨ä¸“ä¸š ");
+		addDepartment("ç½‘ç»œå®‰å…¨ä¸“ä¸š", " ç½‘ç»œå®‰å…¨ä¸“ä¸š ");
+		addDepartment("æœåŠ¡å™¨å®‰å…¨ä¸“ä¸š", " æœåŠ¡å™¨å®‰å…¨ä¸“ä¸š ");
 	}
 	
 	@Override
 	public String getName() {
 		// TODO Auto-generated method stub
-		return "ĞÅÏ¢¹¤³ÌÑ§Ôº";
+		return "ä¿¡æ¯å·¥ç¨‹å­¦é™¢";
 	}
 
 	@Override

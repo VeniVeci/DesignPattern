@@ -5,25 +5,22 @@ import java.util.Iterator;
 
 public class ComputerCollegeIterator implements Iterator {
 
-	//ÕâÀïÎÒÃÇÐèÒªDepartment ÊÇÒÔÔõÑùµÄ·½Ê½´æ·Å=>Êý×é
+	//è¿™é‡Œæˆ‘ä»¬éœ€è¦Department æ˜¯ä»¥æ€Žæ ·çš„æ–¹å¼å­˜æ”¾=>æ•°ç»„
 	Department[] departments;
-	int position = 0; //±éÀúµÄÎ»ÖÃ
-	
-	
-	
-	
+	int position = 0; //éåŽ†çš„ä½ç½®
+
 	public ComputerCollegeIterator(Department[] departments) {
 		this.departments = departments;
 	}
 
-	//ÅÐ¶ÏÊÇ·ñ»¹ÓÐÏÂÒ»¸öÔªËØ
+	//åˆ¤æ–­æ˜¯å¦è¿˜æœ‰ä¸‹ä¸€ä¸ªå…ƒç´ 
 	@Override
 	public boolean hasNext() {
 		// TODO Auto-generated method stub
 		if(position >= departments.length || departments[position] == null) {
 			return false;
 		}else {
-		
+
 			return true;
 		}
 	}
@@ -35,10 +32,10 @@ public class ComputerCollegeIterator implements Iterator {
 		position += 1;
 		return department;
 	}
-	
-	//É¾³ýµÄ·½·¨£¬Ä¬ÈÏ¿ÕÊµÏÖ
+
+	//åˆ é™¤çš„æ–¹æ³•ï¼Œé»˜è®¤ç©ºå®žçŽ°
 	public void remove() {
-		
+
 	}
 
 }
