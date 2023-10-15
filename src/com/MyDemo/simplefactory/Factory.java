@@ -10,7 +10,6 @@ public class Factory {
     public static void main(String[] args) {
         Product productA = Factory.getProduct("TypeA");
         productA.show();
-
     }
     // 简单工厂  根据 入参返回不同的产品
     public static Product getProduct(String type){
