@@ -5,7 +5,6 @@ import java.util.List;
 
 public class InfoColleageIterator implements Iterator {
 
-
 	List<Department> departmentList; // 信息工程学院是以List方式存放系
 	int index = -1;//索引
 
