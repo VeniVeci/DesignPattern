@@ -1,7 +1,13 @@
 package com.MyDemo.builder;
 
 import org.junit.Test;
+/*
+建造者模式是一种创建对象的模式 就是创建型模式
+为什么会有这个建造者模式呢   是因为创建一个对象 需要步骤比较多，所以搞一个抽象类，将这些步骤封装进去，
+交由不同的子类去实现，在进行创建对象时 传入父类型，即可创建出相应的子类。
+所以还需要有一个指挥者，将抽象类聚合到指挥者类中。
 
+ */
 public class Client {
 	public static void main(String[] args) {
 
