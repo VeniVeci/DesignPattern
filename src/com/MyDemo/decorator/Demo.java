@@ -3,7 +3,7 @@ package com.MyDemo.decorator;
 import java.lang.management.ThreadInfo;
 /*
 用来增强原有类： 有点像面向切面编程来进行原有功能的增强。
-通过依赖该对象
+通过依赖该对象实现原有功能的增强。
  */
 /**
  * @author VeniVeci
