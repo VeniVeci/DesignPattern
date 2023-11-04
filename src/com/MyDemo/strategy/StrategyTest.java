@@ -8,13 +8,6 @@ package com.MyDemo.strategy;
  */
 public class StrategyTest {
 
-
-
-
-
-
-
-
     public static void main(String[] args) {
         BrakeBehavior behavior = new LongWheelBrake();
         LongWheelCar car = new LongWheelCar(behavior);
