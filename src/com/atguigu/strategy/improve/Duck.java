@@ -21,7 +21,7 @@ public abstract class Duck {
 	}
 
 	public void swim() {
-		System.out.println("鸭子会游泳~~");
+		System.out.println("鸭子会游泳!~~");
 	}
 
 	public void fly() {
