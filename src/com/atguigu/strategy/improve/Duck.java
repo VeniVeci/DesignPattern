@@ -14,7 +14,7 @@ public abstract class Duck {
 	public abstract void display();//显示鸭子信息
 
 	public void quack() {
-		System.out.println("鸭子嘎嘎叫~~");
+		System.out.println("鸭子叫~~");
 	}
 	public void quack2() {
 		quackBehavior.quack();
