@@ -6,18 +6,15 @@ package com.MyDemo.strategyDH;
  * @description:
  * @date: 2023/11/19
  */
-public class DiscountCalc extends Calc{
+public class NormalCalc extends Calc{
 
-    double discount;
-
-    public DiscountCalc(double discount) {
-        this.discount = discount;
+    public NormalCalc() {
     }
 
     @Override
     public double calcPrice(int price, int num) {
-        sumPrice = price*num*discount;
+        sumPrice = price*num;
         printPrice();
-        return sumPrice;
+        return price*num;
     }
 }

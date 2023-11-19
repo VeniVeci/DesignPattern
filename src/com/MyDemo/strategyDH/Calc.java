@@ -1,5 +1,9 @@
 package com.MyDemo.strategyDH;
 
-public interface Calc {
-    public double calcPrice(int price, int num);
+abstract class Calc {
+    double sumPrice;
+    abstract double calcPrice(int price, int num);
+    public void printPrice(){
+        System.out.println("总价格为: " + sumPrice);
+    }
 }
